@@ -24,6 +24,9 @@ Sonarr
 
 Adguard Home
 
+## Updates
+Orobouros
+
 ## Monitoring
 Prometheus
 
