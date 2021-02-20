@@ -7,7 +7,7 @@ If you do use this or redistribute this in any way, please give due credit.
 ## File
 [Template Stack](oppaya-template2.0)
 
-# Services
+## Services
 Jellyfin
 
 Jackett
@@ -24,7 +24,7 @@ Sonarr
 
 Adguard Home
 
-# Monitoring
+## Monitoring
 Prometheus
 
 Node-Exporter
