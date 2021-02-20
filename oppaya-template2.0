@@ -138,6 +138,23 @@ services:
       - 853:853/tcp
       - 3000:3000/tcp
     restart: unless-stopped
+    
+## Updating
+
+  ouroboros:
+    container_name: ouroboros
+    hostname: ouroboros
+    image: pyouroboros/ouroboros
+    environment:
+      - CLEANUP=true
+      - INTERVAL=300
+      - LOG_LEVEL=info
+      - SELF_UPDATE=true
+      - IGNORE=mongo influxdb postgres mariadb
+      - TZ=Europe/Amsterdam
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 
 ## System Monitoring
 
