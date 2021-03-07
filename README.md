@@ -4,6 +4,8 @@ Oppaya Media Server
 
 If you do use this or redistribute this in any way, please give due credit.
 
+# !!OUTDATED!!
+
 ## File
 [Template Stack](oppaya-template2.0)
 
